@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDP", "AdapterDP\AdapterDP.csproj", "{C4D95774-4DD7-4C61-8B29-9F48E593EA01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterDP", "AdapterDP\AdapterDP.csproj", "{C4D95774-4DD7-4C61-8B29-9F48E593EA01}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryDP", "FactoryDP\FactoryDP.csproj", "{04BCC9BE-9D4B-41E3-8E54-33672672F286}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDP", "BuilderDP\BuilderDP.csproj", "{727701FA-6576-4E64-B6FD-EF8507065CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDP", "BuilderDP\BuilderDP.csproj", "{727701FA-6576-4E64-B6FD-EF8507065CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDP", "FacadeDP\FacadeDP.csproj", "{6B9D6B3B-677D-4C49-8466-826692FB3E49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeDP", "FacadeDP\FacadeDP.csproj", "{6B9D6B3B-677D-4C49-8466-826692FB3E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDP", "CompositeDP\CompositeDP.csproj", "{4EEE43E6-88DF-4EE3-B136-39293AE58E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeDP", "CompositeDP\CompositeDP.csproj", "{4EEE43E6-88DF-4EE3-B136-39293AE58E7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyDP", "ProxyDP\ProxyDP.csproj", "{9611892E-A37E-4B8C-A39D-AFA10C963B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyDP", "ProxyDP\ProxyDP.csproj", "{9611892E-A37E-4B8C-A39D-AFA10C963B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPoolDP", "ObjectPoolDP\ObjectPoolDP.csproj", "{6FB799AA-077C-41D8-9801-7A5AE83B9AD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectPoolDP", "ObjectPoolDP\ObjectPoolDP.csproj", "{6FB799AA-077C-41D8-9801-7A5AE83B9AD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDP", "StrategyDP\StrategyDP.csproj", "{A500F304-5C63-4A1F-86FB-3F124A1A2698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDP", "StrategyDP\StrategyDP.csproj", "{A500F304-5C63-4A1F-86FB-3F124A1A2698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodDP", "TemplateMethodDP\TemplateMethodDP.csproj", "{DEF3F224-E3CF-4F33-94AE-9E6C78A8F271}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodDP", "TemplateMethodDP\TemplateMethodDP.csproj", "{DEF3F224-E3CF-4F33-94AE-9E6C78A8F271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDP", "ObserverDP\ObserverDP.csproj", "{26036998-DE47-4D10-9A56-80056325F60E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DEF3F224-E3CF-4F33-94AE-9E6C78A8F271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF3F224-E3CF-4F33-94AE-9E6C78A8F271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF3F224-E3CF-4F33-94AE-9E6C78A8F271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26036998-DE47-4D10-9A56-80056325F60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26036998-DE47-4D10-9A56-80056325F60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26036998-DE47-4D10-9A56-80056325F60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26036998-DE47-4D10-9A56-80056325F60E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
